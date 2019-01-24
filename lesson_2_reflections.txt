@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+-When you run git init it creates a git repository. Once the repository is created you can track changes / commits on the repository by running git log.
+
+This is useful for version controll when working with multiple files or with other collaborators.
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+-It allows you to decide which changes you want to commit
