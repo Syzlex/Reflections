@@ -1,11 +1,33 @@
 What happens when you initialize a repository? Why do you need to do it?
 
--When you run git init it creates a git repository. Once the repository is created you can track changes / commits on the repository by running git log.
+ - When you run git init it creates a git repository. Once the repository is created you can track changes / commits on the repository by running git log.
 
-This is useful for version controll when working with multiple files or with other collaborators.
+ This is useful for version controll when working with multiple files or with other collaborators.
 
 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
--It allows you to decide which changes you want to commit
+ - It allows you to decide which changes you want to commit
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+ - You can add one file at a time to the staging area, commit, and repeat for each logical change.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+ - If I wanted a Chinese version of Lucky English a branch would be good.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+ - I can see where splits are occurring and see which branches are ahead and how other branches might differ to other branches
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+ - Bringing code from latest commit of both branches and putting them together. It's showing the coins branch was merged unto master and you can see both branches converging.
