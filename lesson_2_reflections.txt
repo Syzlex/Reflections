@@ -31,3 +31,9 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
  - Bringing code from latest commit of both branches and putting them together. It's showing the coins branch was merged unto master and you can see both branches converging.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ - If Git were to auto merge it could give us a undesired result whereas having the ability to resolve the merge conflicts gets us the ability to choose which code should remain and which code should be removed.
