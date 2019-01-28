@@ -21,3 +21,8 @@ Describe the differences between forks, clones, and branches. When would you use
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
  - It would be easier to keep track of multiple versions and collaborate. Adding, commiting, and creating merge requests seem to add more work but I think in the long run it would make the project much more efficient.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+ - Working on separate branches allows the master to always remain working, if there's a bug or issue with a branch it doesn't affect the master branch. Only when a branch is working and is ready to be merged to we merge it into master. Certainly it appears that working on one branch would be easier to track and less complicated in a sense that there are less moving parts but working on multiple branches can also open possibilities to explore and test new features and functions.
